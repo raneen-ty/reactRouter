@@ -10,10 +10,11 @@ function Layout() {
         <Link to="/contact">Contact</Link>
       </nav>
       <div style={{ marginTop: "20px" }}>
-        <Outlet /> {/* سيتم عرض الصفحة الحالية هنا */}
+        <Outlet />
       </div>
     </div>
   );
 }
 
 export default Layout;
+
